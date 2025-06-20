@@ -706,7 +706,7 @@ shops:
     stick:
       price: 0.75
       max-buy: 64
-      max_sell: 128
+      max-sell: 128
     book:
       price: 22.5
       sell-price-difference: 25

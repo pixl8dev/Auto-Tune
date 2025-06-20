@@ -68,10 +68,12 @@ public class AutoTune extends JavaPlugin {
                 () -> pluginManager.callEvent(new AutosellProfitEvent(true)),
                 1200L, 1200L);
 
+        // Convert minutes to ticks (1 minute = 1200 ticks)
+        long ticks = (long) (config.getTimePeriod() * 1200);
         scheduler.runTaskTimerAsynchronously(this,
                 () -> pluginManager.callEvent(new TimePeriodEvent(true)),
-                (long) (config.getTimePeriod() * 1200L),
-                (long) (config.getTimePeriod() * 1200L));
+                ticks,
+                ticks);
 
         scheduler.runTaskTimerAsynchronously(this,
                 () -> pluginManager.callEvent(new TutorialEvent(true)),

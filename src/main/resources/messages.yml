@@ -22,8 +22,8 @@ background-pane-text: "<obf>|</obf>"
 shop-lore:
   - "<c:#50F48C>Price: <c:#66F450><b><price>"
   - "<c:#F86C78>Sell Price: <c:#F45066><b><sell-price>"
-  - "<gold>Buys Left: <b><gray><buys-left>/<max-buys>"
-  - "<gold>Sells Left: <b><gray><sells-left>/<max-sells>"
+  - "<gold>Buys Left This Period: <b><gray><buys-left>/<max-buys>"
+  - "<gold>Sells Left This Period: <b><gray><sells-left>/<max-sells>"
   - "<gold>Change: <c:#C2D2DE><b><change>"
 
 # Placeholders <gdp>, <debt>, <loss>, <balance>, <inflation>, <gdp-per-capita>, <debt-per-capita>, <loss-per-capita>, <balance-per-capita>
@@ -39,14 +39,14 @@ shop-gdp-lore:
 # Placeholders: <price>, <sell-price>, <total-price>, <total-sell-price>, <amount>, <buys-left>, <sells-left>, <max-buys>, <max-sells>, <change>, <collect-first-setting>
 purchase-buy-lore:
   - "<c:#50F48C>Price: <c:#66F450><b><total-price>"
-  - "<gold>Buys Left: <b><gray><buys-left>/<max-buys>"
+  - "<gold>Buys Left This Period: <b><gray><buys-left>/<max-buys>"
   - "<gold>Change: <c:#C2D2DE><b><change>"
   - "<gray>Collect first setting: <white><collect-first-setting>"
 
 # Placeholders: <price>, <sell-price>, <total-price>, <total-sell-price>, <amount>, <buys-left>, <sells-left>, <max-buys>, <max-sells>, <change>, <collect-first-setting>
 purchase-sell-lore:
   - "<c:#F86C78>Sell Price: <c:#F45066><b><total-sell-price>"
-  - "<gold>Sells Left: <b><gray><sells-left>/<max-sells>"
+  - "<gold>Sells Left This Period: <b><gray><sells-left>/<max-sells>"
   - "<gold>Change: <c:#C2D2DE><b><change>"
 
 # Placeholders <autosell-setting>
